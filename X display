@@ -1,0 +1,8 @@
+# command for correct X server display using cygwin
+# make sure xinit screen are installed before running the commands
+# command to install: apt-cyg install xinit screen
+
+startxwin
+
+DISPLAY=localhost:0.0 xterm
+
